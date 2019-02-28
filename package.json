@@ -6,7 +6,7 @@
   "dependencies": {
   },
   "scripts": {
-    "start": "lerna run start",
+    "start": "lerna run start --parallel",
     "bootstrap": "lerna bootstrap"
   },
   "workspaces": [

@@ -16,7 +16,10 @@ module.exports = {
   resolve: {
     modules: ['node_modules'],
     extensions: ['.js'],
-    symlinks: true
+    symlinks: true,
+    alias: {
+      '@app': PATH.source
+    }
   },
 
   module: {
