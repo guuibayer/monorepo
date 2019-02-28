@@ -18,6 +18,7 @@ module.exports = {
     extensions: ['.js'],
     symlinks: true,
     alias: {
+      '@components': PATH.components,
       '@app': PATH.source
     }
   },
